@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+workspace 'StarzPlayTask.xworkspace'
+project '/Users/ahmad.afaq/Desktop/StarzPlayApp/StarzPlay/NetworkKit/NetworkKit.xcodeproj'
+project '/Users/ahmad.afaq/Desktop/StarzPlayApp/StarzPlay/StarzPlayTask/StarzPlayTask.xcodeproj'
+
+abstract_target 'checking' do
+target 'StarzPlayTask' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for StarzPlayTask
+
+   pod 'PKHUD'
+    pod 'Alamofire'
+   pod 'Kingfisher'
+   pod 'IQKeyboardManagerSwift'
+
+  target 'StarzPlayTaskTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'StarzPlayTaskUITests' do
+    # Pods for testing
+  end
+
+end
+
+
+target 'NetworkKit' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for StarzPlayTask
+  project '/Users/ahmad.afaq/Desktop/StarzPlayApp/StarzPlay/NetworkKit/NetworkKit.xcodeproj'
+  pod 'Alamofire'
+  pod 'PKHUD'
+  
+  end
+
+end

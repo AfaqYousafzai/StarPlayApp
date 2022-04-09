@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StarzPlaySettings</key>
+	<dict>
+		<key>Environment</key>
+		<dict>
+			<key>QA</key>
+			<dict>
+				<key>BaseURL</key>
+				<string>https://api.themoviedb.org/3/tv</string>
+			</dict>
+			<key>Production</key>
+			<dict>
+				<key>BaseURL</key>
+				<string>https://api.themoviedb.org/3/tv</string>
+			</dict>
+			<key>Staging</key>
+			<dict>
+				<key>BaseURL</key>
+				<string>https://api.themoviedb.org/3/tv</string>
+			</dict>
+			<key>Development</key>
+			<dict>
+				<key>BaseURL</key>
+				<string>https://api.themoviedb.org/3/tv</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

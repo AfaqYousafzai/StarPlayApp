@@ -1,0 +1,6 @@
+framework module Pods_checking_NetworkKit {
+  umbrella header "Pods-checking-NetworkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
